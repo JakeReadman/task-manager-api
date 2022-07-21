@@ -1,7 +1,7 @@
 const { ObjectId, MongoClient } = require("mongodb");
 
 const connectionUrl = process.env.MONGODB_URL;
-const databaseName = process.env.DB_NAME;
+const databaseName = "task-manager";
 
 const id = new ObjectId();
 
